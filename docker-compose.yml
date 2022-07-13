@@ -1,0 +1,21 @@
+---
+version: "3.0"
+
+services:
+
+  centos:
+    image: centos:latest
+    container_name: centos7
+    command: sleep 3600
+
+  fedora:
+    image: pycontribs/fedora:latest
+    container_name: fedora_lat
+    command: sleep 3600
+
+  debian:
+    image: ubuntu:latest
+    container_name: ubuntu
+    command: sleep 3600
+
+...
